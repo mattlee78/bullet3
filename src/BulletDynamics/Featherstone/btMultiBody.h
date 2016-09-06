@@ -577,6 +577,38 @@ void addJointTorque(int i, btScalar Q);
 		m_baseName = name;
 	}
 
+	///users can point to their objects, userPointer is not used by Bullet
+	void*	getUserPointer() const
+	{
+		return m_userObjectPointer;
+	}
+
+	int	getUserIndex() const
+	{
+		return m_userIndex;
+	}
+
+	int	getUserIndex2() const
+	{
+		return m_userIndex2;
+	}
+	///users can point to their objects, userPointer is not used by Bullet
+	void	setUserPointer(void* userPointer)
+	{
+		m_userObjectPointer = userPointer;
+	}
+
+	///users can point to their objects, userPointer is not used by Bullet
+	void	setUserIndex(int index)
+	{
+		m_userIndex = index;
+	}
+
+	void	setUserIndex2(int index)
+	{
+		m_userIndex2 = index;
+	}
+
 private:
     btMultiBody(const btMultiBody &);  // not implemented
     void operator=(const btMultiBody &);  // not implemented
@@ -653,6 +685,10 @@ private:
     bool m_canSleep;
     btScalar m_sleepTimer;
 
+	void* m_userObjectPointer;
+	int m_userIndex2;
+	int m_userIndex;
+
 	int	m_companionId;
 	btScalar	m_linearDamping;
 	btScalar	m_angularDamping;
@@ -677,18 +713,10 @@ struct btMultiBodyLinkDoubleData
 	btVector3DoubleData		m_jointAxisTop[6];
 	btVector3DoubleData		m_jointAxisBottom[6];
 
-
-	char					*m_linkName;
-	char					*m_jointName;
-	btCollisionObjectDoubleData	*m_linkCollider;
-	
 	btVector3DoubleData		m_linkInertia;   // inertia of the base (in local frame; diagonal)
 	double					m_linkMass;
 	int						m_parentIndex;
 	int						m_jointType;
-	
-
-	
 
 	int						m_dofCount;
 	int						m_posVarCount;
@@ -698,7 +726,12 @@ struct btMultiBodyLinkDoubleData
 
 	double					m_jointDamping;
 	double					m_jointFriction;
-	
+
+	char					*m_linkName;
+	char					*m_jointName;
+	btCollisionObjectDoubleData	*m_linkCollider;
+	char					*m_paddingPtr;
+
 };
 
 struct btMultiBodyLinkFloatData
@@ -708,12 +741,6 @@ struct btMultiBodyLinkFloatData
 	btVector3FloatData		m_thisPivotToThisComOffset;
 	btVector3FloatData		m_jointAxisTop[6];
 	btVector3FloatData		m_jointAxisBottom[6];
-	
-
-	char				*m_linkName;
-	char				*m_jointName;
-	btCollisionObjectFloatData	*m_linkCollider;
-	
 	btVector3FloatData	m_linkInertia;   // inertia of the base (in local frame; diagonal)
 	int						m_dofCount;
 	float				m_linkMass;
@@ -729,23 +756,26 @@ struct btMultiBodyLinkFloatData
 	float					m_jointDamping;
 	float					m_jointFriction;
 
+	char				*m_linkName;
+	char				*m_jointName;
+	btCollisionObjectFloatData	*m_linkCollider;
+	char				*m_paddingPtr;
+
 };
 
 ///do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64
 struct	btMultiBodyDoubleData
 {
+	btTransformDoubleData m_baseWorldTransform;
+	btVector3DoubleData m_baseInertia;   // inertia of the base (in local frame; diagonal)
+	double	m_baseMass;
+
 	char	*m_baseName;
 	btMultiBodyLinkDoubleData	*m_links;
 	btCollisionObjectDoubleData	*m_baseCollider;
-
-	btTransformDoubleData m_baseWorldTransform;
-	btVector3DoubleData m_baseInertia;   // inertia of the base (in local frame; diagonal)
-	
+	char	*m_paddingPtr;
 	int		m_numLinks;
-	double	m_baseMass;
-
-	char m_padding[4];
-	
+	char	m_padding[4];
 };
 
 ///do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64
