@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{DFBD3FA5-B4A2-A044-9CFB-0C5EBFD4B128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\InverseDynamics">
+      <UniqueIdentifier>{BFD064C5-4063-5A4D-AE93-D2AD73967305}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\InverseDynamics\test_invdyn_kinematics.cpp">
+      <Filter>test\InverseDynamics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="examples">
+      <UniqueIdentifier>{DF7A5792-B21C-784B-94E8-A2BAE9E1F710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ExtendedTutorials">
+      <UniqueIdentifier>{0F5DDEA7-4C34-4346-A907-BD6BEFBCCD02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\StandaloneMain">
+      <UniqueIdentifier>{6C00E306-8B7A-204F-9293-9D10FF95E94A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Utils">
+      <UniqueIdentifier>{4DF297DC-54B0-D049-AF6C-7DF6242B7356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\RenderingExamples">
+      <UniqueIdentifier>{8632BCF5-89D5-CF41-AECE-6E75915E9ACA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\MultiBody">
+      <UniqueIdentifier>{FCD822BC-B507-6648-A43E-3AB575407164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs">
+      <UniqueIdentifier>{8F73B94C-9821-134C-B1B0-C4B368C9B88B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\tinyxml">
+      <UniqueIdentifier>{A9155D83-0BFD-6549-B10C-8B4397E42B71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\Wavefront">
+      <UniqueIdentifier>{4D0A0A9E-F7A6-6445-93AF-E172D2E5DE3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers">
+      <UniqueIdentifier>{D7103EA8-8212-D649-A0FB-43BE1CE448D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportColladaDemo">
+      <UniqueIdentifier>{18723976-C73F-A94B-8CC0-6B554B3A7EAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportObjDemo">
+      <UniqueIdentifier>{6AC36B41-1636-C846-BF31-ABFD6997DA26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportURDFDemo">
+      <UniqueIdentifier>{BC9EEB39-56B3-CF45-9CD4-D0B5DC6ADCEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportMeshUtility">
+      <UniqueIdentifier>{05A418CE-55D0-4C42-85A1-B71A4CADC4FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\stb_image">
+      <UniqueIdentifier>{5C946BB9-A6BE-7340-9787-C83CBD850344}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\Bridge.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\Chain.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\InclinedPlane.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\MultiPendulum.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\MultipleBoxes.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\NewtonsCradle.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\NewtonsRopeCradle.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\RigidBodyFromObj.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\SimpleBox.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\SimpleCloth.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ExtendedTutorials\SimpleJoint.h">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Utils\b3ResourcePath.h">
+      <Filter>examples\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.h">
+      <Filter>examples\ThirdPartyLibs\Wavefront</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\ExtendedTutorials\RigidBodyFromObj.cpp">
+      <Filter>examples\ExtendedTutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\StandaloneMain\main_console_single_example.cpp">
+      <Filter>examples\StandaloneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Utils\b3ResourcePath.cpp">
+      <Filter>examples\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\RenderingExamples\TimeSeriesCanvas.cpp">
+      <Filter>examples\RenderingExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\RenderingExamples\TimeSeriesFontData.cpp">
+      <Filter>examples\RenderingExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\MultiBody\InvertedPendulumPDControl.cpp">
+      <Filter>examples\MultiBody</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinystr.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+      <Filter>examples\ThirdPartyLibs\Wavefront</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
+      <Filter>examples\Importers\ImportColladaDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
+      <Filter>examples\Importers\ImportObjDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
+      <Filter>examples\Importers\ImportObjDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
+      <Filter>examples\Importers\ImportMeshUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
+      <Filter>examples\ThirdPartyLibs\stb_image</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="examples">
+      <UniqueIdentifier>{49B58C6D-9476-DF41-9AE5-00B806741725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs">
+      <UniqueIdentifier>{CB22B11B-760F-F841-9B80-58EA90252060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\Glew">
+      <UniqueIdentifier>{A71AA3AD-C32D-8146-A8AF-22FA7F08C092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\SharedMemory">
+      <UniqueIdentifier>{263A4908-8B8B-BC40-B8ED-E9C0CFA7F4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\TinyRenderer">
+      <UniqueIdentifier>{F48DCF7E-D643-AA41-980C-430708491884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\OpenGLWindow">
+      <UniqueIdentifier>{7180A349-2F29-9346-885C-3665764086F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers">
+      <UniqueIdentifier>{77CCF876-5E0A-0448-91ED-71C5C08FE4ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportURDFDemo">
+      <UniqueIdentifier>{2FFB16F8-D4C2-5E4B-A1C3-B6BEF7101C95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Utils">
+      <UniqueIdentifier>{4AFDB85D-D2F2-D94C-9AC2-B6A6FB7437DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{F3DB5288-E052-754C-AD6D-B75A65DE2645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\Serialize">
+      <UniqueIdentifier>{33B9339C-6A96-4E40-AE84-4854FC970FF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\Serialize\BulletWorldImporter">
+      <UniqueIdentifier>{1C8BA7F9-936B-BA4F-BED9-32BEA3734FC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\Serialize\BulletFileLoader">
+      <UniqueIdentifier>{6BAE43EE-E210-E44A-99EE-17F469494B1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportObjDemo">
+      <UniqueIdentifier>{FECDA0E3-0933-DB40-B3F1-0C692BF43AA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportSTLDemo">
+      <UniqueIdentifier>{572BAE8B-12EA-7A4D-ADD2-9BFB54997AC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportColladaDemo">
+      <UniqueIdentifier>{20860794-33E1-6846-8D8B-17ADA215D7C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\Wavefront">
+      <UniqueIdentifier>{1E97D3F1-BC8F-3749-B889-EF1F0A436F01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\tinyxml">
+      <UniqueIdentifier>{FC81404B-FB01-C342-91C7-896DEE961771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Importers\ImportMeshUtility">
+      <UniqueIdentifier>{EF0784F6-52EE-3947-8D57-70E12867690D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\stb_image">
+      <UniqueIdentifier>{ED8CF298-FF2A-9446-BC31-9A0F5E8F6CB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\StandaloneMain">
+      <UniqueIdentifier>{D3ADD3E2-E0D0-AE4C-A9D4-5B62CE96F7DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ExampleBrowser">
+      <UniqueIdentifier>{AC5C3F6E-102F-E541-9D92-58AFAEC815DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\openvr">
+      <UniqueIdentifier>{0BF55E5C-C50E-C34C-AA58-161C0CD49AA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\openvr\samples">
+      <UniqueIdentifier>{6AF1F64A-86B0-1746-B1D1-D6B5606AAAA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\openvr\samples\shared">
+      <UniqueIdentifier>{1E5EC255-B5A8-D54B-8BCC-65F04E6A4FDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\MultiThreading">
+      <UniqueIdentifier>{5F0D0DE7-B09E-A743-948D-CDE0F031B310}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Extras\Serialize\BulletWorldImporter\CMakeLists.txt">
+      <Filter>Extras\Serialize\BulletWorldImporter</Filter>
+    </None>
+    <None Include="..\..\Extras\Serialize\BulletWorldImporter\premake4.lua">
+      <Filter>Extras\Serialize\BulletWorldImporter</Filter>
+    </None>
+    <None Include="..\..\Extras\Serialize\BulletFileLoader\CMakeLists.txt">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </None>
+    <None Include="..\..\Extras\Serialize\BulletFileLoader\premake4.lua">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\examples\SharedMemory\PhysicsServerSharedMemory.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\PhysicsServer.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\SharedMemoryCommands.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\SharedMemoryPublic.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\PhysicsDirect.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\PhysicsDirectC_API.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\PhysicsLoopBack.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\PhysicsLoopBackC_API.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\PhysicsServerCommandProcessor.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.h">
+      <Filter>examples\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\OpenGLWindow\SimpleCamera.h">
+      <Filter>examples\OpenGLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\UrdfParser.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.h">
+      <Filter>Extras\Serialize\BulletWorldImporter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.h">
+      <Filter>Extras\Serialize\BulletWorldImporter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletFileLoader\bChunk.h">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletFileLoader\bCommon.h">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletFileLoader\bDefines.h">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletFileLoader\bDNA.h">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletFileLoader\bFile.h">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletFileLoader\btBulletFile.h">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\URDFImporterInterface.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportURDFDemo\URDFJointTypes.h">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportSTLDemo\ImportSTLSetup.h">
+      <Filter>examples\Importers\ImportSTLDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h">
+      <Filter>examples\Importers\ImportSTLDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h">
+      <Filter>examples\Importers\ImportColladaDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\lodepng.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\Matrices.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\pathtools.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\Vectors.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\MultiThreading\b3ThreadSupportInterface.h">
+      <Filter>examples\MultiThreading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\MultiThreading\b3Win32ThreadSupport.h">
+      <Filter>examples\MultiThreading</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Glew\glew.c">
+      <Filter>examples\ThirdPartyLibs\Glew</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsClient.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsClientSharedMemory.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsClientExample.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsServerExample.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsServerSharedMemory.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsServer.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsClientC_API.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PosixSharedMemory.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\Win32SharedMemory.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\InProcessMemory.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsDirect.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsDirectC_API.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsLoopBack.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsLoopBackC_API.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp">
+      <Filter>examples\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\geometry.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\model.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\tgaimage.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\our_gl.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\TinyRenderer.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\OpenGLWindow\SimpleCamera.cpp">
+      <Filter>examples\OpenGLWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
+      <Filter>examples\Importers\ImportURDFDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Utils\b3ResourcePath.cpp">
+      <Filter>examples\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Utils\b3Clock.cpp">
+      <Filter>examples\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
+      <Filter>Extras\Serialize\BulletWorldImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
+      <Filter>Extras\Serialize\BulletWorldImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\Serialize\BulletFileLoader\bChunk.cpp">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\Serialize\BulletFileLoader\bDNA.cpp">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\Serialize\BulletFileLoader\bFile.cpp">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp">
+      <Filter>Extras\Serialize\BulletFileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
+      <Filter>examples\Importers\ImportObjDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
+      <Filter>examples\Importers\ImportObjDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
+      <Filter>examples\Importers\ImportColladaDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+      <Filter>examples\ThirdPartyLibs\Wavefront</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinystr.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
+      <Filter>examples\Importers\ImportMeshUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
+      <Filter>examples\ThirdPartyLibs\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\StandaloneMain\hellovr_opengl_main.cpp">
+      <Filter>examples\StandaloneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ExampleBrowser\OpenGLGuiHelper.cpp">
+      <Filter>examples\ExampleBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ExampleBrowser\GL_ShapeDrawer.cpp">
+      <Filter>examples\ExampleBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp">
+      <Filter>examples\ExampleBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\lodepng.cpp">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\Matrices.cpp">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\pathtools.cpp">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\MultiThreading\b3ThreadSupportInterface.cpp">
+      <Filter>examples\MultiThreading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\MultiThreading\b3Win32ThreadSupport.cpp">
+      <Filter>examples\MultiThreading</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

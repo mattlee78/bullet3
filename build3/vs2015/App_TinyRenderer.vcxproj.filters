@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="examples">
+      <UniqueIdentifier>{70F73EC8-8904-9944-8B70-7410DAD5E75B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs">
+      <UniqueIdentifier>{66B763B3-BEDC-134F-B77B-4BA47C311E19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\Glew">
+      <UniqueIdentifier>{75878804-F8D7-7A43-851D-31FB4A7ED8B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\TinyRenderer">
+      <UniqueIdentifier>{07817CA3-EE9A-9B44-870B-27B81746A52D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Utils">
+      <UniqueIdentifier>{688DEBAF-04C3-BE4C-886F-243F1EB5B118}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\examples\TinyRenderer\geometry.h">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\TinyRenderer\model.h">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\TinyRenderer\our_gl.h">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\TinyRenderer\tgaimage.h">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\TinyRenderer\TinyRenderer.h">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Glew\glew.c">
+      <Filter>examples\ThirdPartyLibs\Glew</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\geometry.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\main.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\model.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\our_gl.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\tgaimage.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\TinyRenderer\TinyRenderer.cpp">
+      <Filter>examples\TinyRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Utils\b3ResourcePath.cpp">
+      <Filter>examples\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="examples">
+      <UniqueIdentifier>{03236DE1-2324-994E-BFA1-A42215E544FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs">
+      <UniqueIdentifier>{AD52EDD4-756B-4C46-A959-F69541D58794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\Glew">
+      <UniqueIdentifier>{8D701C8A-B6B6-8E42-8AD0-30B6A00E0ABD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\BasicDemo">
+      <UniqueIdentifier>{B31F531A-BBF8-5240-8B80-905B3A40774C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\StandaloneMain">
+      <UniqueIdentifier>{806E7CA1-D28E-F745-A7FF-0AF9CC786C82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ExampleBrowser">
+      <UniqueIdentifier>{47C9F1D9-3199-A84E-9C0A-49AC5C3DF8E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\openvr">
+      <UniqueIdentifier>{00BDA8C0-C50E-F640-926F-C0B598764736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\openvr\samples">
+      <UniqueIdentifier>{20B68755-8F07-F649-B1F4-D7B2BEE8AB3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\openvr\samples\shared">
+      <UniqueIdentifier>{338518CC-7BEB-7241-B5A1-7B7AE49C21D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\Utils">
+      <UniqueIdentifier>{4A24782B-62A1-3242-966B-9705260853CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\examples\BasicDemo\BasicExample.h">
+      <Filter>examples\BasicDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\lodepng.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\Matrices.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\pathtools.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\Vectors.h">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\Utils\b3Clock.h">
+      <Filter>examples\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Glew\glew.c">
+      <Filter>examples\ThirdPartyLibs\Glew</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\BasicDemo\BasicExample.cpp">
+      <Filter>examples\BasicDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\StandaloneMain\hellovr_opengl_main.cpp">
+      <Filter>examples\StandaloneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ExampleBrowser\OpenGLGuiHelper.cpp">
+      <Filter>examples\ExampleBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ExampleBrowser\GL_ShapeDrawer.cpp">
+      <Filter>examples\ExampleBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp">
+      <Filter>examples\ExampleBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\lodepng.cpp">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\Matrices.cpp">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\openvr\samples\shared\pathtools.cpp">
+      <Filter>examples\ThirdPartyLibs\openvr\samples\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\Utils\b3Clock.cpp">
+      <Filter>examples\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
